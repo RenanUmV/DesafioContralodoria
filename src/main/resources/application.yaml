@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost/db_mv?createDatabaseIfNotExist=true&serverTimezone=UTC&useSSl=false
+    username: root
+    password:
+  show-sql: true
+
+server:port: 8080
